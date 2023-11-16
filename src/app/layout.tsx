@@ -18,14 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-row w-screen min-h-screen bg-white text-primary">
-          <div className="flex flex-col flex-1">
-            <main className="flex-1 overflow-auto h-full">
-              <Header />
-              {children}
-            </main>
-          </div>
-        </div>
+        {/* <div className="flex flex-col w-screen min-h-screen bg-white text-primary"> */}
+        <main className="flex flex-col overflow-y-auto overflow-x-hidden w-screen min-h-screen bg-white text-primary">
+          <Header />
+          {children}
+        </main>
+        {/* </div> */}
       </body>
     </html>
   );

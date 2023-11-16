@@ -6,6 +6,23 @@
 body {
   overflow-x: hidden;
 }
+* {
+  box-sizing: border-box;
+}
+  *::-webkit-scrollbar {
+    width: 0.5rem;
+    border-radius: 6px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #fff
+    
+  } 
+  *::-webkit-scrollbar-thumb {
+    background-color: #4facfe;
+    border-radius: 6px;
+    outline: none;
+  }
+
 .glass {
   background: rgba(255, 255, 255, 0.22);
 border-radius: 16px;
