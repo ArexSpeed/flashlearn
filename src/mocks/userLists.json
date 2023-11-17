@@ -1,0 +1,13 @@
+[
+    {
+        "userId": 1,
+        "listId": 1,
+        "lastseen": "2023-11-16 16:00:00",
+        "elements": [
+            {
+                "id": 1,
+                "correct": true
+            }
+        ]
+    }
+]

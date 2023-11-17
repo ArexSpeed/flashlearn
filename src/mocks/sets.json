@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "English",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "German",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Italian",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 4,
+        "categoryId": 2,
+        "name": "Physics",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 5,
+        "categoryId": 2,
+        "name": "Biology",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 6,
+        "categoryId": 3,
+        "name": "React",
+        "group": "Private",
+        "lists": []
+    },
+    {
+        "id": 7,
+        "categoryId": 3,
+        "name": "Java",
+        "group": "Private",
+        "lists": []
+    }
+]

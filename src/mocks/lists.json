@@ -1,0 +1,990 @@
+[
+    {
+        "id": 1,
+        "setId": 1,
+        "name": "Nature 1",
+        "elements": [
+            {
+                "id": 1,
+                "listId": 1,
+                "front": "Tree",
+                "back": "Drzewo",
+                "sentences": [
+                    {
+                        "front": "This tree is green",
+                        "back": "To drzewo jest zielone"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listId": 1,
+                "front": "Leaf",
+                "back": "Liść",
+                "sentences": [
+                    {
+                        "front": "The colorful leaf fell from the tree",
+                        "back": "Kolorowy liść spadł z drzewa"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "listId": 1,
+                "front": "Sky",
+                "back": "Niebo",
+                "sentences": [
+                    {
+                        "front": "The sky is clear and blue today",
+                        "back": "Dzisiaj niebo jest czyste i niebieskie"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "listId": 1,
+                "front": "Sea",
+                "back": "Morze",
+                "sentences": [
+                    {
+                        "front": "I love to watch the waves in the sea",
+                        "back": "Uwielbiam oglądać fale na morzu"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "listId": 1,
+                "front": "Mountain",
+                "back": "Góra",
+                "sentences": [
+                    {
+                        "front": "We climbed to the top of the mountain",
+                        "back": "Wspięliśmy się na szczyt góry"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "listId": 1,
+                "front": "River",
+                "back": "Rzeka",
+                "sentences": [
+                    {
+                        "front": "The river flows peacefully through the valley",
+                        "back": "Rzeka spokojnie płynie przez dolinę"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "listId": 1,
+                "front": "Sunset",
+                "back": "Zachód słońca",
+                "sentences": [
+                    {
+                        "front": "The colors of the sunset are breathtaking",
+                        "back": "Kolory zachodu słońca są zapierające dech w piersiach"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "listId": 1,
+                "front": "Flower",
+                "back": "Kwiat",
+                "sentences": [
+                    {
+                        "front": "The garden is full of colorful flowers",
+                        "back": "Ogród jest pełen kolorowych kwiatów"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "listId": 1,
+                "front": "Rainbow",
+                "back": "Tęcza",
+                "sentences": [
+                    {
+                        "front": "After the rain, we saw a beautiful rainbow",
+                        "back": "Po deszczu zobaczyliśmy piękną tęczę"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "listId": 1,
+                "front": "Bird",
+                "back": "Ptak",
+                "sentences": [
+                    {
+                        "front": "The colorful bird sang a melodious tune",
+                        "back": "Kolorowy ptak śpiewał melodyjną melodię"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "listId": 1,
+                "front": "Cloud",
+                "back": "Chmura",
+                "sentences": [
+                    {
+                        "front": "The fluffy cloud drifted across the sky",
+                        "back": "Puszysta chmura przesuwała się po niebie"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "listId": 1,
+                "front": "Sunshine",
+                "back": "Światło słoneczne",
+                "sentences": [
+                    {
+                        "front": "I enjoy basking in the warm sunshine",
+                        "back": "Uwielbiam się wygrzewać w ciepłym świetle słonecznym"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "listId": 1,
+                "front": "Lake",
+                "back": "Jezioro",
+                "sentences": [
+                    {
+                        "front": "The lake reflects the surrounding mountains",
+                        "back": "Jezioro odzwierciedla otaczające góry"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "listId": 1,
+                "front": "Butterfly",
+                "back": "Motyl",
+                "sentences": [
+                    {
+                        "front": "The colorful butterfly landed on the flower",
+                        "back": "Kolorowy motyl wylądował na kwiecie"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "listId": 1,
+                "front": "Rock",
+                "back": "Skała",
+                "sentences": [
+                    {
+                        "front": "We sat on a large rock and enjoyed the view",
+                        "back": "Usiedliśmy na dużej skale i cieszyliśmy się widokiem"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "listId": 1,
+                "front": "Rain",
+                "back": "Deszcz",
+                "sentences": [
+                    {
+                        "front": "The gentle rain nourishes the plants",
+                        "back": "Delikatny deszcz odżywia rośliny"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "listId": 1,
+                "front": "Sunflower",
+                "back": "Słonecznik",
+                "sentences": [
+                    {
+                        "front": "The sunflower follows the movement of the sun",
+                        "back": "Słonecznik podąża za ruchem słońca"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "listId": 1,
+                "front": "Meadow",
+                "back": "Łąka",
+                "sentences": [
+                    {
+                        "front": "Children love playing in the colorful meadow",
+                        "back": "Dzieci uwielbiają bawić się na kolorowej łące"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "listId": 1,
+                "front": "Dolphin",
+                "back": "Delfin",
+                "sentences": [
+                    {
+                        "front": "We spotted dolphins swimming in the ocean",
+                        "back": "Zauważyliśmy delfiny pływające w oceanie"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "listId": 1,
+                "front": "Breeze",
+                "back": "Bryza",
+                "sentences": [
+                    {
+                        "front": "The gentle breeze rustled the leaves in the trees",
+                        "back": "Delikatna bryza szumiała liśćmi na drzewach"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "setId": 1,
+        "name": "Animals",
+        "elements": [
+            {
+                "id": 1,
+                "listId": 2,
+                "front": "Tiger",
+                "back": "Tygrys",
+                "sentences": [
+                    {
+                        "front": "The tiger prowled through the jungle.",
+                        "back": "Tygrys krążył po dżungli."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listId": 2,
+                "front": "Lion",
+                "back": "Lew",
+                "sentences": [
+                    {
+                        "front": "The lion roared loudly in the savannah.",
+                        "back": "Lew ryknął głośno na sawannie."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "listId": 2,
+                "front": "Elephant",
+                "back": "Słoń",
+                "sentences": [
+                    {
+                        "front": "The elephant sprayed itself with water using its trunk.",
+                        "back": "Słoń spryskał się wodą, używając swojego trąba."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "listId": 2,
+                "front": "Giraffe",
+                "back": "Żyrafa",
+                "sentences": [
+                    {
+                        "front": "The giraffe gracefully reached for the leaves on the tall tree.",
+                        "back": "Żyrafa z gracją sięgnęła po liście na wysokim drzewie."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "listId": 2,
+                "front": "Eagle",
+                "back": "Orzeł",
+                "sentences": [
+                    {
+                        "front": "The eagle soared high in the sky, searching for prey.",
+                        "back": "Orzeł unosił się wysoko na niebie, szukając zdobyczy."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "listId": 2,
+                "front": "Dolphin",
+                "back": "Delfin",
+                "sentences": [
+                    {
+                        "front": "Dolphins are known for their playful behavior in the ocean.",
+                        "back": "Delfiny są znane z zabawowego zachowania w oceanie."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "listId": 2,
+                "front": "Kangaroo",
+                "back": "Kangur",
+                "sentences": [
+                    {
+                        "front": "The kangaroo hopped across the Australian outback.",
+                        "back": "Kangur skakał po australijskim buszu."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "listId": 2,
+                "front": "Penguin",
+                "back": "Pingwin",
+                "sentences": [
+                    {
+                        "front": "Penguins waddle on the icy shores of Antarctica.",
+                        "back": "Pingwiny chodzą ociężale po lodowych brzegach Antarktyki."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "listId": 2,
+                "front": "Zebra",
+                "back": "Zebra",
+                "sentences": [
+                    {
+                        "front": "The black and white stripes of the zebra help it blend into the grasslands.",
+                        "back": "Czarne i białe paski zebry pomagają jej wtopić się w trawiaste obszary."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "listId": 2,
+                "front": "Koala",
+                "back": "Koala",
+                "sentences": [
+                    {
+                        "front": "Koalas are marsupials that live in eucalyptus trees.",
+                        "back": "Koale to torbacze, które żyją w drzewach eukaliptusowych."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "listId": 2,
+                "front": "Panda",
+                "back": "Panda",
+                "sentences": [
+                    {
+                        "front": "Pandas are known for their love of bamboo and distinctive black and white fur.",
+                        "back": "Pandy są znane ze swojej miłości do bambusa i charakterystycznego czarno-białego futra."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "listId": 2,
+                "front": "Horse",
+                "back": "Koń",
+                "sentences": [
+                    {
+                        "front": "The horse galloped across the meadow.",
+                        "back": "Koń galopował przez łąkę."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "listId": 2,
+                "front": "Snake",
+                "back": "Wąż",
+                "sentences": [
+                    {
+                        "front": "The snake slithered through the grass silently.",
+                        "back": "Wąż sunął przez trawę bezgłośnie."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "listId": 2,
+                "front": "Turtle",
+                "back": "Żółw",
+                "sentences": [
+                    {
+                        "front": "The turtle moved slowly towards the water.",
+                        "back": "Żółw poruszał się powoli w kierunku wody."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "listId": 2,
+                "front": "Polar Bear",
+                "back": "Niedźwiedź Polarny",
+                "sentences": [
+                    {
+                        "front": "The polar bear roams the icy landscapes of the Arctic.",
+                        "back": "Niedźwiedź polarny wędruje po lodowatych krajobrazach Arktyki."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "listId": 2,
+                "front": "Gorilla",
+                "back": "Goryl",
+                "sentences": [
+                    {
+                        "front": "Gorillas are intelligent primates that live in family groups.",
+                        "back": "Goryle to inteligentne naczelne, które żyją w grupach rodzinnych."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "listId": 2,
+                "front": "Cheetah",
+                "back": "Gepard",
+                "sentences": [
+                    {
+                        "front": "The cheetah is the fastest land animal.",
+                        "back": "Gepard to najszybsze zwierzę lądowe."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "listId": 2,
+                "front": "Koala",
+                "back": "Koala",
+                "sentences": [
+                    {
+                        "front": "Koalas are marsupials that live in eucalyptus trees.",
+                        "back": "Koale to torbacze, które żyją w drzewach eukaliptusowych."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "listId": 2,
+                "front": "Owl",
+                "back": "Sowa",
+                "sentences": [
+                    {
+                        "front": "The owl hooted softly in the moonlit night.",
+                        "back": "Sowa głęboko huczała w księżycową noc."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "listId": 2,
+                "front": "Octopus",
+                "back": "Ośmiornica",
+                "sentences": [
+                    {
+                        "front": "The octopus gracefully swam through the ocean depths.",
+                        "back": "Ośmiornica z gracją pływała w głębinach oceanu."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "setId": 1,
+        "name": "Vegetables",
+        "elements": [
+            {
+                "id": 1,
+                "listId": 3,
+                "front": "Carrot",
+                "back": "Marchew",
+                "sentences": [
+                    {
+                        "front": "Carrots are rich in beta-carotene, which is good for eye health.",
+                        "back": "Marchewki są bogate w beta-karoten, co jest dobre dla zdrowia oczu."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listId": 3,
+                "front": "Broccoli",
+                "back": "Brokuły",
+                "sentences": [
+                    {
+                        "front": "Broccoli is a nutritious vegetable that is high in vitamins and minerals.",
+                        "back": "Brokuły to pożywna warzywo, bogata w witaminy i minerały."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "listId": 3,
+                "front": "Tomato",
+                "back": "Pomidor",
+                "sentences": [
+                    {
+                        "front": "Tomatoes are a key ingredient in many delicious dishes.",
+                        "back": "Pomidory są kluczowym składnikiem wielu pysznych potraw."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "listId": 3,
+                "front": "Spinach",
+                "back": "Szpinak",
+                "sentences": [
+                    {
+                        "front": "Spinach is a leafy green vegetable that is packed with nutrients.",
+                        "back": "Szpinak to liściaste warzywo, pełne składników odżywczych."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "listId": 3,
+                "front": "Potato",
+                "back": "Ziemniak",
+                "sentences": [
+                    {
+                        "front": "Potatoes can be baked, mashed, or fried for a variety of delicious dishes.",
+                        "back": "Ziemniaki można piec, rozgnieść lub smażyć na wiele pysznych dań."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "listId": 3,
+                "front": "Cucumber",
+                "back": "Ogórek",
+                "sentences": [
+                    {
+                        "front": "Cucumbers are refreshing and are often used in salads.",
+                        "back": "Ogórki są orzeźwiające i często używane w sałatkach."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "listId": 3,
+                "front": "Bell Pepper",
+                "back": "Papryka",
+                "sentences": [
+                    {
+                        "front": "Bell peppers come in various colors and add vibrant flavors to dishes.",
+                        "back": "Papryki występują w różnych kolorach i dodają intensywnych smaków do potraw."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "listId": 3,
+                "front": "Onion",
+                "back": "Cebula",
+                "sentences": [
+                    {
+                        "front": "Onions are a versatile vegetable used in many culinary preparations.",
+                        "back": "Cebule to wszechstronne warzywo używane w wielu przygotowaniach kulinarnych."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "listId": 3,
+                "front": "Lettuce",
+                "back": "Sałata",
+                "sentences": [
+                    {
+                        "front": "Lettuce is a popular leafy green used in salads and sandwiches.",
+                        "back": "Sałata to popularne liściaste warzywo używane w sałatkach i kanapkach."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "listId": 3,
+                "front": "Cabbage",
+                "back": "Kapusta",
+                "sentences": [
+                    {
+                        "front": "Cabbage is often used in coleslaw and various cooked dishes.",
+                        "back": "Kapusta jest często używana w surówce i różnych potrawach gotowanych."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "listId": 3,
+                "front": "Carrot",
+                "back": "Marchew",
+                "sentences": [
+                    {
+                        "front": "Carrots are rich in beta-carotene, which is good for eye health.",
+                        "back": "Marchewki są bogate w beta-karoten, co jest dobre dla zdrowia oczu."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "listId": 3,
+                "front": "Radish",
+                "back": "Rzodkiewka",
+                "sentences": [
+                    {
+                        "front": "Radishes add a crisp and peppery flavor to salads.",
+                        "back": "Rzodkiewki dodają sałatkom chrupiącego i pieprzowego smaku."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "listId": 3,
+                "front": "Zucchini",
+                "back": "Cukinia",
+                "sentences": [
+                    {
+                        "front": "Zucchini can be grilled, sautéed, or used in baking.",
+                        "back": "Cukinie można grillować, dusić lub używać do pieczenia."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "listId": 3,
+                "front": "Garlic",
+                "back": "Czosnek",
+                "sentences": [
+                    {
+                        "front": "Garlic adds a distinctive flavor to many dishes and has health benefits.",
+                        "back": "Czosnek dodaje charakterystycznego smaku wielu potrawom i ma korzystne właściwości zdrowotne."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "listId": 3,
+                "front": "Asparagus",
+                "back": "Szparagi",
+                "sentences": [
+                    {
+                        "front": "Asparagus is a nutritious vegetable often enjoyed grilled or steamed.",
+                        "back": "Szparagi to pożywne warzywo, często spożywane grillowane lub gotowane na parze."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "listId": 3,
+                "front": "Peas",
+                "back": "Groch",
+                "sentences": [
+                    {
+                        "front": "Peas are a sweet and tender vegetable that complements many dishes.",
+                        "back": "Groch to słodkie i delikatne warzywo, które uzupełnia wiele potraw."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "listId": 3,
+                "front": "Cauliflower",
+                "back": "Kalafior",
+                "sentences": [
+                    {
+                        "front": "Cauliflower can be roasted, mashed, or used in making vegetarian dishes.",
+                        "back": "Kalafiora można piec, rozgniatać lub używać do przygotowywania dań wegetariańskich."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "listId": 3,
+                "front": "Beetroot",
+                "back": "Burak",
+                "sentences": [
+                    {
+                        "front": "Beetroots add a vibrant color and earthy flavor to salads.",
+                        "back": "Buraki dodają intensywnego koloru i ziemistego smaku do sałatek."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "listId": 3,
+                "front": "Sweet Potato",
+                "back": "Batat",
+                "sentences": [
+                    {
+                        "front": "Sweet potatoes are a nutritious and delicious alternative to regular potatoes.",
+                        "back": "Bataty to pożywne i smaczne alternatywa dla zwykłych ziemniaków."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "listId": 3,
+                "front": "Artichoke",
+                "back": "Karczoch",
+                "sentences": [
+                    {
+                        "front": "Artichokes are often used in Mediterranean cuisine and have a unique taste.",
+                        "back": "Karczochy są często używane w kuchni śródziemnomorskiej i mają unikalny smak."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "setId": 1,
+        "name": "Fruits",
+        "elements": [
+            {
+                "id": 1,
+                "listId": 4,
+                "front": "Apple",
+                "back": "Jabłko",
+                "sentences": [
+                    {
+                        "front": "An apple a day keeps the doctor away.",
+                        "back": "Jedno jabłko dziennie utrzymuje lekarza z daleka."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listId": 4,
+                "front": "Banana",
+                "back": "Banan",
+                "sentences": [
+                    {
+                        "front": "Bananas are a quick and healthy snack.",
+                        "back": "Banany to szybka i zdrowa przekąska."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "listId": 4,
+                "front": "Orange",
+                "back": "Pomarańcza",
+                "sentences": [
+                    {
+                        "front": "Oranges are packed with vitamin C, which boosts the immune system.",
+                        "back": "Pomarańcze są pełne witaminy C, która wzmacnia system immunologiczny."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "listId": 4,
+                "front": "Grapes",
+                "back": "Winogrona",
+                "sentences": [
+                    {
+                        "front": "Grapes can be enjoyed fresh or turned into delicious wine.",
+                        "back": "Winogrona można spożywać na surowo lub przetworzyć na pyszne wino."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "listId": 4,
+                "front": "Pineapple",
+                "back": "Ananas",
+                "sentences": [
+                    {
+                        "front": "Pineapple adds a tropical and sweet flavor to dishes and beverages.",
+                        "back": "Ananas dodaje tropikalnego i słodkiego smaku potrawom i napojom."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "listId": 4,
+                "front": "Strawberry",
+                "back": "Truskawka",
+                "sentences": [
+                    {
+                        "front": "Strawberries are a favorite topping for desserts like cakes and ice cream.",
+                        "back": "Truskawki są ulubionym dodatkiem do deserów, takich jak ciasta i lody."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "listId": 4,
+                "front": "Mango",
+                "back": "Mango",
+                "sentences": [
+                    {
+                        "front": "Mangoes are juicy and delicious, perfect for both sweet and savory dishes.",
+                        "back": "Mango są soczyste i pyszne, doskonałe zarówno do słodkich, jak i słonych dań."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "listId": 4,
+                "front": "Watermelon",
+                "back": "Arbuz",
+                "sentences": [
+                    {
+                        "front": "Watermelon is a refreshing fruit, especially in hot summer days.",
+                        "back": "Arbuz to orzeźwiające owoce, zwłaszcza w gorące letnie dni."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "listId": 4,
+                "front": "Kiwi",
+                "back": "Kiwi",
+                "sentences": [
+                    {
+                        "front": "Kiwi is rich in vitamins and adds a unique tangy flavor to fruit salads.",
+                        "back": "Kiwi jest bogate w witaminy i dodaje unikalnego, kwaskowego smaku do sałatek owocowych."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "listId": 4,
+                "front": "Cherry",
+                "back": "Wiśnia",
+                "sentences": [
+                    {
+                        "front": "Cherries are a delightful and sweet summer fruit.",
+                        "back": "Wiśnie to urocze i słodkie owoce letnie."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "listId": 4,
+                "front": "Peach",
+                "back": "Brzoskwinia",
+                "sentences": [
+                    {
+                        "front": "Peaches are fuzzy and delicious, perfect for snacks and desserts.",
+                        "back": "Brzoskwinie są puchate i pyszne, doskonałe na przekąski i desery."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "listId": 4,
+                "front": "Pear",
+                "back": "Gruszka",
+                "sentences": [
+                    {
+                        "front": "Pears can be enjoyed fresh or used in baking and cooking.",
+                        "back": "Gruszki można spożywać na surowo lub używać do pieczenia i gotowania."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "listId": 4,
+                "front": "Apricot",
+                "back": "Morela",
+                "sentences": [
+                    {
+                        "front": "Apricots are a sweet and velvety fruit with a distinctive flavor.",
+                        "back": "Morele to słodkie i aksamitne owoce o charakterystycznym smaku."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "listId": 4,
+                "front": "Plum",
+                "back": "Śliwka",
+                "sentences": [
+                    {
+                        "front": "Plums can be eaten fresh or dried to make prunes.",
+                        "back": "Śliwki można spożywać na surowo lub suszyć, aby zrobić suszone śliwki."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "listId": 4,
+                "front": "Grapefruit",
+                "back": "Grejpfrut",
+                "sentences": [
+                    {
+                        "front": "Grapefruits are known for their tangy and citrusy flavor.",
+                        "back": "Grejpfruty są znane ze swojego kwaskowego i cytrusowego smaku."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "listId": 4,
+                "front": "Raspberry",
+                "back": "Malina",
+                "sentences": [
+                    {
+                        "front": "Raspberries are small, red berries that are often used in desserts and jams.",
+                        "back": "Maliny to małe, czerwone jagody, które często są używane w deserach i dżemach."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "listId": 4,
+                "front": "Cantaloupe",
+                "back": "Kantalupa",
+                "sentences": [
+                    {
+                        "front": "Cantaloupe is a sweet and juicy melon, perfect for summertime enjoyment.",
+                        "back": "Kantalupa to słodki i soczysty melon, doskonały do spożycia w lecie."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "listId": 4,
+                "front": "Blueberry",
+                "back": "Borówka",
+                "sentences": [
+                    {
+                        "front": "Blueberries are antioxidant-rich berries that are great for overall health.",
+                        "back": "Borówki to owoce jagodowe bogate w antyoksydanty, korzystne dla ogólnego zdrowia."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "listId": 4,
+                "front": "Blackberry",
+                "back": "Jeżyna",
+                "sentences": [
+                    {
+                        "front": "Blackberries are delicious and can be enjoyed fresh or in various dishes.",
+                        "back": "Jeżyny są pyszne i można je spożywać na surowo lub w różnych daniach."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "listId": 4,
+                "front": "Pomegranate",
+                "back": "Granat",
+                "sentences": [
+                    {
+                        "front": "Pomegranates are known for their juicy arils and are often used in salads.",
+                        "back": "Granaty są znane ze swoich soczystych pestek i często są używane w sałatkach."
+                    }
+                ]
+            }
+        ]
+    }
+]

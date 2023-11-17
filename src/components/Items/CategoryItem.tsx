@@ -1,10 +1,15 @@
 import { PlusIcon } from "../Icons";
 
-export const CategoryItem = () => {
+type CategoryItem = {
+  id: number;
+  name: string;
+};
+
+export const CategoryItem = ({ id, name }: CategoryItem) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-10 h-10 rounded-full bg-blue-200" />
-      <span className="text-black whitespace-nowrap">Category</span>
+      <span className="text-black whitespace-nowrap">{name}</span>
     </div>
   );
 };

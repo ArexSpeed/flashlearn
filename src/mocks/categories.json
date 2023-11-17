@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Languages"
+    },
+    {
+        "id": 2,
+        "name": "Science"
+    },
+    {
+        "id": 3,
+        "name": "IT"
+    },
+    {
+        "id": 4,
+        "name": "Sport"
+    },
+    {
+        "id": 5,
+        "name": "Other"
+    },
+    {
+        "id": 6,
+        "name": "Recently"
+    }
+]

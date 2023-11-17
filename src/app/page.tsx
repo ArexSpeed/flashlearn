@@ -1,6 +1,9 @@
 import { CategoryItem, CategoryItemAdd } from "@/components/Items/CategoryItem";
 import { SetItem, SetItemAdd } from "@/components/Items/SetItem";
 import { SwiperCards } from "@/components/List/SwiperCards";
+import categories from "@/mocks/categories.json";
+import sets from "@/mocks/sets.json";
+import lists from "@/mocks/lists.json";
 
 export default function Home() {
   return (
@@ -14,8 +17,8 @@ export default function Home() {
         <section className="flex flex-col gap-4 py-2 overflow-hidden">
           <p className="font-semibold text-[20px] text-black">Categories</p>
           <div className="flex flex-row gap-2 pr-4 pb-4 overflow-x-scroll scrollbar-thin scrollbar-track-white scrollbar-thumb-blue-300 dark:scrollbar-track-primaryDark dark:scrollbar-thumb-darkBlue">
-            {Array.of(1, 2, 3, 4, 5).map((_, index) => (
-              <CategoryItem key={index} />
+            {categories.map((item) => (
+              <CategoryItem id={item.id} name={item.name} key={item.id} />
             ))}
             <CategoryItemAdd />
           </div>
@@ -29,11 +32,9 @@ export default function Home() {
             <span className="text-gray-500">Public</span>
           </div>
           <div className="flex flex-row gap-2 pr-4 pb-4 overflow-x-scroll scrollbar-thin scrollbar-track-white scrollbar-thumb-blue-300 dark:scrollbar-track-primaryDark dark:scrollbar-thumb-darkBlue">
-            {Array.of(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5).map(
-              (_, index) => (
-                <SetItem key={index} />
-              )
-            )}
+            {sets.map((_, index) => (
+              <SetItem key={index} />
+            ))}
             <SetItemAdd />
           </div>
         </section>
