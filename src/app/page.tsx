@@ -4,6 +4,7 @@ import { SwiperCards } from "@/components/List/SwiperCards";
 import categories from "@/mocks/categories.json";
 import sets from "@/mocks/sets.json";
 import lists from "@/mocks/lists.json";
+import { SetsContainer } from "@/containers/SetsContainer";
 
 export default function Home() {
   return (
@@ -24,19 +25,7 @@ export default function Home() {
           </div>
         </section>
         <section className="flex flex-col gap-4 py-2 overflow-hidden">
-          <p className="font-semibold text-[20px] text-black">Sets</p>
-          <div className="flex flex-row gap-2">
-            <span className="text-gray-500">All</span>
-            <span className="text-gray-500">Private</span>
-            <span className="text-gray-500">Shared</span>
-            <span className="text-gray-500">Public</span>
-          </div>
-          <div className="flex flex-row gap-2 pr-4 pb-4 overflow-x-scroll scrollbar-thin scrollbar-track-white scrollbar-thumb-blue-300 dark:scrollbar-track-primaryDark dark:scrollbar-thumb-darkBlue">
-            {sets.map((_, index) => (
-              <SetItem key={index} />
-            ))}
-            <SetItemAdd />
-          </div>
+          <SetsContainer />
         </section>
       </div>
     </div>

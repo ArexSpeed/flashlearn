@@ -1,11 +1,30 @@
-import { PlusIcon } from "../Icons";
+"use client";
 
-export const SetItem = () => {
+import { useAppDispatch, useAppSelector } from "@/context/store";
+import { PlusIcon } from "../Icons";
+import {
+  selectedCategoryId,
+  selectedSetId,
+  setSetId,
+} from "@/context/slices/listSlice";
+
+type SetItem = {
+  id: number;
+  name: string;
+};
+
+export const SetItem = ({ id, name }: SetItem) => {
+  const dispatch = useAppDispatch();
+  const categoryId = useAppSelector(selectedCategoryId);
+  const setId = useAppSelector(selectedSetId);
   return (
-    <div className="flex flex-col items-center justify-center">
+    <button
+      className="flex flex-col items-center justify-center outline-none"
+      onClick={() => dispatch(setSetId(id))}
+    >
       <div className="w-10 h-10 rounded-md bg-blue-200" />
-      <span className="text-black whitespace-nowrap">Set</span>
-    </div>
+      <span className="text-black whitespace-nowrap">{name}</span>
+    </button>
   );
 };
 
