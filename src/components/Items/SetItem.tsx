@@ -4,8 +4,8 @@ import { useAppDispatch, useAppSelector } from "@/context/store";
 import { PlusIcon } from "../Icons";
 import {
   selectedCategoryId,
-  selectedSetId,
-  setSetId,
+  selectedSetData,
+  setSetData,
 } from "@/context/slices/listSlice";
 
 type SetItem = {
@@ -16,11 +16,11 @@ type SetItem = {
 export const SetItem = ({ id, name }: SetItem) => {
   const dispatch = useAppDispatch();
   const categoryId = useAppSelector(selectedCategoryId);
-  const setId = useAppSelector(selectedSetId);
+  const setData = useAppSelector(selectedSetData);
   return (
     <button
       className="flex flex-col items-center justify-center outline-none"
-      onClick={() => dispatch(setSetId(id))}
+      onClick={() => dispatch(setSetData({ id, name }))}
     >
       <div className="w-10 h-10 rounded-md bg-blue-200" />
       <span className="text-black whitespace-nowrap">{name}</span>

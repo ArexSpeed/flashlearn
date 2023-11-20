@@ -1,18 +1,18 @@
 import { CategoryItem, CategoryItemAdd } from "@/components/Items/CategoryItem";
-import { SetItem, SetItemAdd } from "@/components/Items/SetItem";
-import { SwiperCards } from "@/components/List/SwiperCards";
 import categories from "@/mocks/categories.json";
-import sets from "@/mocks/sets.json";
-import lists from "@/mocks/lists.json";
 import { SetsContainer } from "@/containers/SetsContainer";
+import { ListContainer } from "@/containers/ListContainer";
+import {
+  ArrowRightIcon,
+  ChartBarIcon,
+  PencilSquareIcon,
+} from "@/components/Icons";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center w-full h-full bg-white">
       <section className="flex flex-col gap-4 py-4 -mt-[125px]">
-        <div className="flex justify-center items-center">
-          <SwiperCards />
-        </div>
+        <ListContainer />
       </section>
       <div className="flex flex-col w-full px-2">
         <section className="flex flex-col gap-4 py-2 overflow-hidden">
