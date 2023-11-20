@@ -11,25 +11,24 @@ import {
   ChartBarIcon,
   PencilSquareIcon,
 } from "@/components/Icons";
+import { useList } from "@/hooks/useList";
 
 export const ListContainer = () => {
-  const setData = useAppSelector(selectedSetData);
-
-  const data = lists.filter((list) => list.setId === setData.id);
+  const list = useList();
   return (
     <div className="flex flex-col w-full">
       <div className="flex pb-4 gap-6 justify-center items-center w-full">
-        <span className="text-xl">{setData.name}</span>
+        <span className="text-xl">{list.setData.name}</span>
         <div className="flex flex-row gap-2 items-center">
           <PencilSquareIcon />
           <ChartBarIcon />
-          <Link href={`/set/${setData.id}`}>
+          <Link href={`/sets/${list.setData.id}`}>
             <ArrowRightIcon />
           </Link>
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <SwiperCards data={data} />
+        <SwiperCards data={list.data} />
       </div>
     </div>
   );

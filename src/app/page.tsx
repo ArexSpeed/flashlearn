@@ -2,11 +2,6 @@ import { CategoryItem, CategoryItemAdd } from "@/components/Items/CategoryItem";
 import categories from "@/mocks/categories.json";
 import { SetsContainer } from "@/containers/SetsContainer";
 import { ListContainer } from "@/containers/ListContainer";
-import {
-  ArrowRightIcon,
-  ChartBarIcon,
-  PencilSquareIcon,
-} from "@/components/Icons";
 
 export default function Home() {
   return (
