@@ -12,7 +12,7 @@ export const Search = () => {
           type="submit"
           className="absolute top-0 left-0 flex items-center justify-center h-full px-2 text-sm font-medium focus:outline-none"
         >
-          <SearchIcon />
+          <SearchIcon className="w-6 h-6 text-black" />
           <span className="sr-only">Search</span>
         </button>
         <input

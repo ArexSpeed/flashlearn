@@ -38,13 +38,13 @@ export const Card = ({ id, name, quantity }: CardProps) => {
           href={`/list/${id}`}
           className="bg-transparent outline-none w-1/2 flex justify-center"
         >
-          <ListIcon />
+          <ListIcon className="w-6 h-6 text-black" />
         </Link>
         <Link
           href={`/card/${id}`}
           className="bg-transparent outline-none w-1/2 flex justify-center"
         >
-          <CardsIcon />
+          <CardsIcon className="w-6 h-6 text-black" />
         </Link>
       </div>
     </div>

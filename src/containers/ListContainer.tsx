@@ -20,10 +20,10 @@ export const ListContainer = () => {
       <div className="flex pb-4 gap-6 justify-center items-center w-full">
         <span className="text-xl">{list.setData.name}</span>
         <div className="flex flex-row gap-2 items-center">
-          <PencilSquareIcon />
-          <ChartBarIcon />
+          <PencilSquareIcon className="w-6 h-6 text-black" />
+          <ChartBarIcon className="w-6 h-6 text-black" />
           <Link href={`/sets/${list.setData.id}`}>
-            <ArrowRightIcon />
+            <ArrowRightIcon className="w-6 h-6 text-black" />
           </Link>
         </div>
       </div>

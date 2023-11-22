@@ -21,7 +21,7 @@ export default function CardPage() {
           className="bg-transparent outline-none flex justify-center"
         >
           Cards
-          <CardsIcon />
+          <CardsIcon className="w-6 h-6 text-black" />
         </Link>
       </div>
       <div className="flex flex-col items-center w-full p-2 gap-2">

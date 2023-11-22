@@ -7,7 +7,7 @@ export const Header = () => {
     <div className="h-[264px] w-full headerBg">
       <header className="flex bg-primaryLight justify-between w-full p-2.5 gap-2 dark:bg-primaryDark">
         <div className="flex flex-row items-center">
-          <MenuIcon />
+          <MenuIcon className="w-6 h-6 text-white" />
         </div>
         <div className="hidden w-full sm:flex">
           <Search />

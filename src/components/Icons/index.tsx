@@ -4,7 +4,7 @@ export function MenuIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -21,11 +21,11 @@ export function MenuIcon(props: SVGAttributes<SVGElement>) {
   );
 }
 
-export const SearchIcon = () => {
+export const SearchIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
       fill="currentColor"
-      className="w-6 h-6"
+      className={props.className}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
@@ -39,11 +39,11 @@ export const SearchIcon = () => {
   );
 };
 
-export const NotificationIcon = () => {
+export const NotificationIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
       fill="currentColor"
-      className="w-6 h-6"
+      className={props.className}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
@@ -61,7 +61,7 @@ export function UserCircleIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -82,7 +82,7 @@ export function MicIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       aria-hidden="true"
-      className="w-6 h-6"
+      className={props.className}
       fill="currentColor"
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ export function CardsIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -121,7 +121,7 @@ export function ListIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -142,7 +142,7 @@ export function PlusIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -163,7 +163,7 @@ export function ArrowRightIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -184,7 +184,7 @@ export function ChartBarIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -205,7 +205,7 @@ export function PencilSquareIcon(props: SVGAttributes<SVGElement>) {
   return (
     <svg
       fill="none"
-      className="w-6 h-6"
+      className={props.className}
       stroke="currentColor"
       strokeWidth={1.5}
       viewBox="0 0 24 24"
@@ -222,10 +222,10 @@ export function PencilSquareIcon(props: SVGAttributes<SVGElement>) {
   );
 }
 
-export const ChevronDownIcon = () => {
+export const ChevronDownIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
-      className="w-6 h-6"
+      className={props.className}
       fill="currentColor"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -240,10 +240,10 @@ export const ChevronDownIcon = () => {
   );
 };
 
-export const ChevronUpIcon = () => {
+export const ChevronUpIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
-      className="w-6 h-6"
+      className={props.className}
       fill="currentColor"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -258,10 +258,10 @@ export const ChevronUpIcon = () => {
   );
 };
 
-export const ChevronLeftIcon = () => {
+export const ChevronLeftIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
-      className="w-6 h-6"
+      className={props.className}
       fill="currentColor"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -276,10 +276,10 @@ export const ChevronLeftIcon = () => {
   );
 };
 
-export const ChevronRightIcon = () => {
+export const ChevronRightIcon = (props: SVGAttributes<SVGElement>) => {
   return (
     <svg
-      className="w-6 h-6"
+      className={props.className}
       fill="currentColor"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"

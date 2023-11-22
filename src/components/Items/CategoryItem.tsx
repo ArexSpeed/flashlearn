@@ -27,7 +27,7 @@ export const CategoryItemAdd = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="w-10 h-10 rounded-full bg-blue-200 flex justify-center items-center">
-        <PlusIcon />
+        <PlusIcon className="w-6 h-6 text-black" />
       </div>
       <span className="text-black whitespace-nowrap">Add new</span>
     </div>

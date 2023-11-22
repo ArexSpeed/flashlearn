@@ -42,7 +42,11 @@ export const ListAccordion = ({ elements }: Props) => {
             </div>
           </div>
           <div className="bg-transparent md:hidden">
-            {open ? <ChevronUpIcon /> : <ChevronDownIcon />}
+            {open ? (
+              <ChevronUpIcon className="w-6 h-6 text-black" />
+            ) : (
+              <ChevronDownIcon className="w-6 h-6 text-black" />
+            )}
           </div>
         </div>
         <div className="flex flex-row gap-2">
@@ -51,10 +55,14 @@ export const ListAccordion = ({ elements }: Props) => {
             className="outline-none bg-transparent"
             onClick={() => console.log(`Edit card: ${elements.id}`)}
           >
-            <PencilSquareIcon />
+            <PencilSquareIcon className="w-6 h-6 text-black" />
           </button>
           <div className="hidden bg-transparent md:flex">
-            {open ? <ChevronUpIcon /> : <ChevronDownIcon />}
+            {open ? (
+              <ChevronUpIcon className="w-6 h-6 text-black" />
+            ) : (
+              <ChevronDownIcon className="w-6 h-6 text-black" />
+            )}
           </div>
         </div>
       </div>
