@@ -986,5 +986,252 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 5,
+        "setId": 2,
+        "name": "Tiere",
+        "elements": [
+            {
+                "id": 1,
+                "listId": 5,
+                "front": "Der Tiger",
+                "back": "Tygrys",
+                "sentences": [
+                    {
+                        "front": "Der Tiger geht im Wald spazieren",
+                        "back": "Tygrys krążył po lesie"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "listId": 5,
+                "front": "Der Löwe",
+                "back": "Lew",
+                "sentences": [
+                    {
+                        "front": "Der Löwe brüllt laut auf der Savanne.",
+                        "back": "Lew ryknął głośno na sawannie."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "listId": 5,
+                "front": "Der Elefant",
+                "back": "Słoń",
+                "sentences": [
+                    {
+                        "front": "Der Elefant spritzt sich mit Wasser mit seinem Rüssel ein.",
+                        "back": "Słoń spryskał się wodą, używając swojego trąba."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "listId": 5,
+                "front": "Die Giraffe",
+                "back": "Żyrafa",
+                "sentences": [
+                    {
+                        "front": "Die Giraffe greift mit Anmut nach den Blättern auf dem hohen Baum.",
+                        "back": "Żyrafa z gracją sięgnęła po liście na wysokim drzewie."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "listId": 5,
+                "front": "Der Adler",
+                "back": "Orzeł",
+                "sentences": [
+                    {
+                        "front": "Der Adler schwebt hoch am Himmel und sucht nach Beute.",
+                        "back": "Orzeł unosił się wysoko na niebie, szukając zdobyczy."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "listId": 5,
+                "front": "Der Delfin",
+                "back": "Delfin",
+                "sentences": [
+                    {
+                        "front": "Delfine sind für ihr verspieltes Verhalten im Ozean bekannt.",
+                        "back": "Delfiny są znane z zabawowego zachowania w oceanie."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "listId": 5,
+                "front": "Das Känguru",
+                "back": "Kangur",
+                "sentences": [
+                    {
+                        "front": "Das Känguru hüpfte durch das australische Outback.",
+                        "back": "Kangur skakał po australijskim buszu."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "listId": 5,
+                "front": "Der Pinguin",
+                "back": "Pingwin",
+                "sentences": [
+                    {
+                        "front": "Pinguine watscheln an den eisigen Ufern der Antarktis.",
+                        "back": "Pingwiny chodzą ociężale po lodowych brzegach Antarktyki."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "listId": 5,
+                "front": "Die Zebra",
+                "back": "Zebra",
+                "sentences": [
+                    {
+                        "front": "Die schwarzen und weißen Streifen der Zebra helfen ihr, sich in den Grasländern zu verstecken.",
+                        "back": "Czarne i białe paski zebry pomagają jej wtopić się w trawiaste obszary."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "listId": 5,
+                "front": "Der Koala",
+                "back": "Koala",
+                "sentences": [
+                    {
+                        "front": "Koalas sind Beuteltiere, die in Eukalyptusbäumen leben.",
+                        "back": "Koale to torbacze, które żyją w drzewach eukaliptusowych."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "listId": 5,
+                "front": "Der Panda",
+                "back": "Panda",
+                "sentences": [
+                    {
+                        "front": "Pandas sind für ihre Liebe zu Bambus und ihr charakteristisches Schwarz-Weiß-Fell bekannt.",
+                        "back": "Pandy są znane ze swojej miłości do bambusa i charakterystycznego czarno-białego futra."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "listId": 5,
+                "front": "Das Pferd",
+                "back": "Koń",
+                "sentences": [
+                    {
+                        "front": "Das Pferd galoppierte über die Wiese.",
+                        "back": "Koń galopował przez łąkę."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "listId": 5,
+                "front": "Die Schlange",
+                "back": "Wąż",
+                "sentences": [
+                    {
+                        "front": "Die Schlange glitt lautlos durch das Gras.",
+                        "back": "Wąż sunął przez trawę bezgłośnie."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "listId": 5,
+                "front": "Die Schildkröte",
+                "back": "Żółw",
+                "sentences": [
+                    {
+                        "front": "Die Schildkröte bewegte sich langsam auf das Wasser zu.",
+                        "back": "Żółw poruszał się powoli w kierunku wody."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "listId": 5,
+                "front": "Der Fuchs",
+                "back": "Lis",
+                "sentences": [
+                    {
+                        "front": "Der Fuchs huschte geschickt durch den Wald.",
+                        "back": "Lis przebiegł zręcznie przez las."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "listId": 5,
+                "front": "Die Eule",
+                "back": "Sowa",
+                "sentences": [
+                    {
+                        "front": "Die Eule hooted leise in der mondhellen Nacht.",
+                        "back": "Sowa głęboko huczała w księżycową noc."
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "listId": 5,
+                "front": "Der Papagei",
+                "back": "Papuga",
+                "sentences": [
+                    {
+                        "front": "Der bunte Papagei plapperte fröhlich im Käfig.",
+                        "back": "Kolorowa papuga paplała wesoło w klatce."
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "listId": 5,
+                "front": "Der Hirsch",
+                "back": "Jeleń",
+                "sentences": [
+                    {
+                        "front": "Der Hirsch trug majestätisch sein prächtiges Geweih.",
+                        "back": "Jeleń dumnie nosił swoje okazałe poroże."
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "listId": 5,
+                "front": "Der Bär",
+                "back": "Niedźwiedź",
+                "sentences": [
+                    {
+                        "front": "Der Bär suchte nach Nahrung in den dichten Wäldern.",
+                        "back": "Niedźwiedź szukał pożywienia w gęstych lasach."
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "listId": 5,
+                "front": "Der Fisch",
+                "back": "Ryba",
+                "sentences": [
+                    {
+                        "front": "Der bunte Fisch schwamm anmutig durch das klare Wasser.",
+                        "back": "Kolorowa ryba pływała z gracją przez czystą wodę."
+                    }
+                ]
+            }
+        ]
     }
 ]
