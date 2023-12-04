@@ -2,6 +2,8 @@ import { CategoryItem, CategoryItemAdd } from "@/components/Items/CategoryItem";
 import categories from "@/mocks/categories.json";
 import { SetsContainer } from "@/containers/SetsContainer";
 import { ListContainer } from "@/containers/ListContainer";
+import { AddCategoryDialog } from "@/components/Dialogs/AddCategoryDialog";
+import { AddSetsDialog } from "@/components/Dialogs/AddSetsDialog";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
           <SetsContainer />
         </section>
       </div>
+      <AddCategoryDialog />
+      <AddSetsDialog />
     </div>
   );
 }

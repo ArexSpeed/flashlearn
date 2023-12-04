@@ -2,11 +2,13 @@ import { configureStore } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import listReducer from "./slices/listSlice";
 import sidebarReducer from "./slices/sidebarSlice";
+import formReducer from "./slices/formSlice";
 
 export const store = configureStore({
   reducer: {
     list: listReducer,
     sidebar: sidebarReducer,
+    form: formReducer,
   },
 });
 

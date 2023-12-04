@@ -7,6 +7,7 @@ import {
   selectedSetData,
   setSetData,
 } from "@/context/slices/listSlice";
+import { setAddSetsFormOpen } from "@/context/slices/formSlice";
 
 type SetItem = {
   id: number;
@@ -29,12 +30,17 @@ export const SetItem = ({ id, name }: SetItem) => {
 };
 
 export const SetItemAdd = () => {
+  const dispatch = useAppDispatch();
+
   return (
-    <div className="flex flex-col items-center justify-center">
+    <button
+      className="flex flex-col items-center justify-center outline-none"
+      onClick={() => dispatch(setAddSetsFormOpen())}
+    >
       <div className="w-10 h-10 rounded-md bg-blue-200 flex justify-center items-center">
         <PlusIcon className="w-6 h-6 text-black" />
       </div>
       <span className="text-black whitespace-nowrap">Add new</span>
-    </div>
+    </button>
   );
 };
