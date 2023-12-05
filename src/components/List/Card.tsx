@@ -3,6 +3,8 @@ import Link from "next/link";
 import { CardsIcon, ListIcon } from "../Icons";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { useAppDispatch } from "@/context/store";
+import { setAddListFormOpen } from "@/context/slices/formSlice";
 
 type CardProps = {
   id: number;
@@ -52,13 +54,18 @@ export const Card = ({ id, name, quantity }: CardProps) => {
 };
 
 export const CardAdd = () => {
+  const dispatch = useAppDispatch();
   return (
     <div className="glass flex flex-col items-center justify-between w-[216px] h-[250px] p-2 rounded-2xl">
       <div className="flex flex-col items-center">
         <span className="text-black text-xl">Add new</span>
         <span className="text-gray-700 text-base"></span>
       </div>
-      <div style={{ width: 90, height: 90 }}>
+      <button
+        style={{ width: 90, height: 90 }}
+        className="outline-none"
+        onClick={() => dispatch(setAddListFormOpen())}
+      >
         <CircularProgressbar
           value={100}
           text="+"
@@ -73,7 +80,7 @@ export const CardAdd = () => {
             backgroundColor: "FFFFFF",
           })}
         />
-      </div>
+      </button>
       <div className="flex flex-row w-full justify-between items-center p-2"></div>
     </div>
   );

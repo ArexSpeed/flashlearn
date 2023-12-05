@@ -4,6 +4,7 @@ import { SetsContainer } from "@/containers/SetsContainer";
 import { ListContainer } from "@/containers/ListContainer";
 import { AddCategoryDialog } from "@/components/Dialogs/AddCategoryDialog";
 import { AddSetsDialog } from "@/components/Dialogs/AddSetsDialog";
+import { AddListDialog } from "@/components/Dialogs/AddListDialog";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       </div>
       <AddCategoryDialog />
       <AddSetsDialog />
+      <AddListDialog />
     </div>
   );
 }
