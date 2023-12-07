@@ -1,19 +1,15 @@
 "use client";
 
-import { setIsOpenSidebar } from "@/context/slices/sidebarSlice";
 import { CloseIcon } from "../Icons";
-import { useDispatch } from "react-redux";
+import { useSidebar } from "@/hooks/useSidebar";
 
 export const Top = () => {
-  const dispatch = useDispatch();
+  const { toggleSidebar } = useSidebar();
 
   return (
     <div className="py-2 px-2 flex flex-row justify-between items-center">
       <span>Flashlearn</span>
-      <button
-        className="flex flex-row items-center"
-        onClick={() => dispatch(setIsOpenSidebar())}
-      >
+      <button className="flex flex-row items-center" onClick={toggleSidebar}>
         <CloseIcon className="w-6 h-6 text-blue-500" />
       </button>
     </div>

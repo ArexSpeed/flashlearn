@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { Li } from "./Li";
 import {
   CalendarBoldIcon,
@@ -12,24 +11,16 @@ import {
   SettingsIcon,
   QuizBoldIcon,
 } from "../Icons";
-import { useAppSelector } from "@/context/store";
-import { selectedIsOpenSidebar } from "@/context/slices/sidebarSlice";
 import { ThemeToggle } from "./ThemeToggle";
 import { Top } from "./Top";
 import { Dialog } from "@headlessui/react";
-import { setIsOpenSidebar } from "@/context/slices/sidebarSlice";
-import { useDispatch } from "react-redux";
+import { useSidebar } from "@/hooks/useSidebar";
 
 export const Sidebar = () => {
-  const openSidebar = useAppSelector(selectedIsOpenSidebar);
-  const dispatch = useDispatch();
+  const { openSidebar, toggleSidebar } = useSidebar();
 
   return (
-    <Dialog
-      open={openSidebar}
-      as="div"
-      onClose={() => dispatch(setIsOpenSidebar())}
-    >
+    <Dialog open={openSidebar} as="div" onClose={toggleSidebar}>
       <nav
         className={`absolute top-0 left-0 bg-transparent w-full h-screen md:w-[256px] ${
           !openSidebar && "hidden"
