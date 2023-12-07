@@ -1,23 +1,25 @@
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 //import { useRouter } from "next/navigation";
 
 interface Props {
   title: string;
   icon: React.ReactNode;
-  pathname: string;
+  iconActive: React.ReactNode;
+  href: string;
 }
 
-export const Li = ({ title, icon, pathname }: Props) => {
-  //const router = useRouter();
+export const Li = ({ title, icon, iconActive, href }: Props) => {
+  const pathname = usePathname();
 
   return (
     <li className="flex justify-center w-full">
       <Link
-        href={pathname}
+        href={href}
         passHref
-        className={`flex items-center px-2 py-1 w-full rounded-lg hover:bg-primaryBlue`}
+        className={`flex items-center px-2 py-2 w-full rounded-lg hover:bg-gray-200`}
       >
-        {icon}
+        {href === pathname ? iconActive : icon}
         <span className={`pl-2 font-semibold text-md text-black`}>{title}</span>
       </Link>
     </li>

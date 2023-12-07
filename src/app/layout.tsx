@@ -4,7 +4,6 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { ToolkitProvider } from "@/components/ToolkitProvider";
 import { Sidebar } from "@/components/Sidebar";
-// import { Sidebar } from "@/components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
