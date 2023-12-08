@@ -17,10 +17,10 @@ export default function CardPage() {
   console.log(listElements);
 
   return (
-    <div className="flex flex-col items-center w-full h-full bg-white">
+    <div className="flex flex-col items-center w-full h-full bg-white dark:bg-primaryDark">
       <div className="flex flex-row w-full justify-between items-center p-2">
         <div className="flex gap-2 justify-center items-center">
-          <h3>{listElements?.name}</h3>
+          <h3 className="text-black dark:text-white">{listElements?.name}</h3>
           <button
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             onClick={() => dispatch(setAddCardFormOpen())}
@@ -30,10 +30,10 @@ export default function CardPage() {
         </div>
         <Link
           href={`/card/${listElements?.id}`}
-          className="bg-transparent outline-none flex justify-center"
+          className="bg-transparent outline-none flex justify-center dark:text-white"
         >
           Cards
-          <CardsIcon className="w-6 h-6 text-black" />
+          <CardsIcon className="w-6 h-6 text-black dark:text-white" />
         </Link>
       </div>
       <div className="flex flex-col items-center w-full p-2 gap-2">

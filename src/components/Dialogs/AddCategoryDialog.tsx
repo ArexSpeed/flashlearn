@@ -22,8 +22,10 @@ export const AddCategoryDialog = () => {
     >
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
       <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
-        <Dialog.Panel className="w-full max-w-sm rounded bg-white p-4">
-          <Dialog.Title className="">Add new category</Dialog.Title>
+        <Dialog.Panel className="w-full max-w-sm rounded bg-white dark:bg-black p-4">
+          <Dialog.Title className="text-black dark:text-white">
+            Add new category
+          </Dialog.Title>
           <CategoryForm />
         </Dialog.Panel>
       </div>

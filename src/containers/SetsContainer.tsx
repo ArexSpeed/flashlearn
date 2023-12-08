@@ -10,7 +10,7 @@ export const SetsContainer = () => {
 
   return (
     <>
-      <p className="font-semibold text-[20px] text-black">Sets</p>
+      <p className="font-semibold text-[20px]">Sets</p>
       <div className="flex flex-row gap-2">
         <span className="text-gray-500">All</span>
         <span className="text-gray-500">Private</span>

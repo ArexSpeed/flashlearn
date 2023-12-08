@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-//import { useRouter } from "next/navigation";
 
 interface Props {
   title: string;
@@ -17,10 +16,14 @@ export const Li = ({ title, icon, iconActive, href }: Props) => {
       <Link
         href={href}
         passHref
-        className={`flex items-center px-2 py-2 w-full rounded-lg hover:bg-gray-200`}
+        className={`flex items-center px-2 py-2 w-full rounded-lg hover:bg-secondaryLight dark:hover:bg-secondaryDark`}
       >
         {href === pathname ? iconActive : icon}
-        <span className={`pl-2 font-semibold text-md text-black`}>{title}</span>
+        <span
+          className={`pl-2 font-semibold text-md text-black dark:text-white`}
+        >
+          {title}
+        </span>
       </Link>
     </li>
   );

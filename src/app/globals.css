@@ -35,3 +35,6 @@ backdrop-filter: blur(4.5px);
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
+.headerBgDark {
+  background-image: linear-gradient(to right, #133b5f 0%, #03393b 100%);
+}

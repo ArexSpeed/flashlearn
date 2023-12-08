@@ -24,7 +24,9 @@ export const SetItem = ({ id, name }: SetItem) => {
       onClick={() => dispatch(setSetData({ id, name }))}
     >
       <div className="w-10 h-10 rounded-md bg-blue-200" />
-      <span className="text-black whitespace-nowrap">{name}</span>
+      <span className="text-black dark:text-white whitespace-nowrap">
+        {name}
+      </span>
     </button>
   );
 };
@@ -37,10 +39,12 @@ export const SetItemAdd = () => {
       className="flex flex-col items-center justify-center outline-none"
       onClick={() => dispatch(setAddSetsFormOpen())}
     >
-      <div className="w-10 h-10 rounded-md bg-blue-200 flex justify-center items-center">
-        <PlusIcon className="w-6 h-6 text-black" />
+      <div className="w-10 h-10 rounded-md bg-transparent flex justify-center items-center">
+        <PlusIcon className="w-6 h-6 text-black dark:text-white" />
       </div>
-      <span className="text-black whitespace-nowrap">Add new</span>
+      <span className="text-black dark:text-white whitespace-nowrap">
+        Add new
+      </span>
     </button>
   );
 };

@@ -9,8 +9,8 @@ import { setIsOpenSidebar } from "@/context/slices/sidebarSlice";
 export const Header = () => {
   const dispatch = useDispatch();
   return (
-    <div className="h-[264px] w-full headerBg">
-      <header className="flex bg-primaryLight justify-between w-full p-2.5 gap-2 dark:bg-primaryDark">
+    <div className="h-[264px] w-full bg-headerBg dark:bg-headerBgDark">
+      <header className="flex justify-between w-full p-2.5 gap-2">
         <button
           className="flex flex-row items-center"
           onClick={() => dispatch(setIsOpenSidebar())}

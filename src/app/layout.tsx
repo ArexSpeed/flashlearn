@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { ToolkitProvider } from "@/components/ToolkitProvider";
 import { Sidebar } from "@/components/Sidebar";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Body } from "@/components/Body";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,15 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ToolkitProvider>
-        <body className={inter.className}>
-          {/* <div className="flex flex-col w-screen min-h-screen bg-white text-primary"> */}
-          <main className="flex flex-col overflow-y-auto overflow-x-hidden w-screen min-h-screen bg-white text-primary">
-            <Sidebar />
-            <Header />
-            {children}
-          </main>
-          {/* </div> */}
-        </body>
+        <Body>
+          <Sidebar />
+          <Header />
+          {children}
+        </Body>
       </ToolkitProvider>
     </html>
   );

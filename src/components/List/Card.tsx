@@ -16,8 +16,10 @@ export const Card = ({ id, name, quantity }: CardProps) => {
   return (
     <div className="glass flex flex-col items-center justify-between w-[216px] h-[250px] p-2 rounded-2xl">
       <div className="flex flex-col items-center">
-        <span className="text-black text-xl">{name}</span>
-        <span className="text-gray-700 text-base">Last seen: 2 days ago</span>
+        <span className="text-black dark:text-white text-xl">{name}</span>
+        <span className="text-gray-700 dark:text-gray-200 text-base">
+          Last seen: 2 days ago
+        </span>
       </div>
       <div style={{ width: 90, height: 90 }}>
         <CircularProgressbar
@@ -40,13 +42,13 @@ export const Card = ({ id, name, quantity }: CardProps) => {
           href={`/list/${id}`}
           className="bg-transparent outline-none w-1/2 flex justify-center"
         >
-          <ListIcon className="w-6 h-6 text-black" />
+          <ListIcon className="w-6 h-6 text-black dark:text-white" />
         </Link>
         <Link
           href={`/card/${id}`}
           className="bg-transparent outline-none w-1/2 flex justify-center"
         >
-          <CardsIcon className="w-6 h-6 text-black" />
+          <CardsIcon className="w-6 h-6 text-black dark:text-white" />
         </Link>
       </div>
     </div>
@@ -58,8 +60,8 @@ export const CardAdd = () => {
   return (
     <div className="glass flex flex-col items-center justify-between w-[216px] h-[250px] p-2 rounded-2xl">
       <div className="flex flex-col items-center">
-        <span className="text-black text-xl">Add new</span>
-        <span className="text-gray-700 text-base"></span>
+        <span className="text-black dark:text-white text-xl">Add new</span>
+        <span className="text-gray-700 dark:text-gray-200 text-base"></span>
       </div>
       <button
         style={{ width: 90, height: 90 }}

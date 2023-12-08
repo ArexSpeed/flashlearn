@@ -27,7 +27,7 @@ export const Sidebar = () => {
         }`}
       >
         <div
-          className={`justify-between flex flex-col p-4 w-full h-full fixed transition-transform duration-300 bg-white z-50 ${
+          className={`justify-between flex flex-col p-4 w-full h-full fixed transition-transform duration-300 bg-primaryLight dark:bg-primaryDark z-50 ${
             !openSidebar && "-translate-x-full"
           } md:w-[256px] md:translate-x-0`}
         >

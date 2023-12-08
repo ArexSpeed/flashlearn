@@ -13,7 +13,7 @@ export const SubmitSection = ({ onCancel }: Props) => {
       >
         Save
       </button>
-      <button type="button" onClick={onCancel}>
+      <button type="button" className="text-red-500" onClick={onCancel}>
         Cancel
       </button>
     </section>
